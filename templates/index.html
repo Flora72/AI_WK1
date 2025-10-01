@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Let’s Learn </title>
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+  <header>
+    <h1>Let’s Learn</h1>
+    <p class="tagline">A sanctuary for growth, built with clarity and care.</p>
+  </header>
+
+  <section class="intro">
+    <h2>What is Let’s Learn?</h2>
+    <p>Let’s_Learn is a mini e-learning platform designed to help you explore curated courses, track your progress, and glow with knowledge. Whether you're just starting or continuing your journey, this space is yours.</p>
+  </section>
+
+  <section class="features">
+    <h2>Features</h2>
+    <ul>
+      <li>Browse available courses</li>
+      <li>Mark courses as completed</li>
+      <li>Secure login and signup</li>
+      <li>Personalized learning dashboard</li>
+    </ul>
+  </section>
+
+  <section class="cta">
+    {% if user.is_authenticated %}
+      <a href="{% url 'course_list' %}" class="button">Explore Courses</a>
+    {% else %}
+      <a href="{% url 'signup' %}" class="button">Start Learning</a>
+    {% endif %}
+  </section>
+
+  <footer>
+    <p>Made with care by Florence | 2025</p>
+  </footer>
+</body>
+</html>

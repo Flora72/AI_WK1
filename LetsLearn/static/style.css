@@ -1,0 +1,137 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf6f0;
+  color: #333;
+  padding: 2rem;
+}
+.top-bar {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #fff8e1;
+  border-bottom: 2px solid #fcd34d;
+}
+
+.tagline {
+  font-style: italic;
+  color: #92400e;
+}
+
+.intro, .features, .cta {
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.5rem 0;
+  padding-left: 1rem;
+  position: relative;
+}
+
+ul li::before {
+  content: "➤";
+  position: absolute;
+  left: 0;
+  color: #d97706;
+}
+
+.button, .link-button {
+  background-color: #fbbf24;
+  color: #333;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.button:hover, .link-button:hover {
+  background-color: #f59e0b;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+h1, h2 {
+  color: #d97706;
+}
+
+a {
+  color: #92400e;
+  text-decoration: none;
+}
+
+button {
+  background-color: #fbbf24;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #f59e0b;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf6f0;
+  color: #333;
+  padding: 2rem;
+}
+
+form {
+  background-color: #fff8e1;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #fcd34d;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+button {
+  background-color: #fbbf24;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f59e0b;
+}
+
+h2 {
+  text-align: center;
+  color: #d97706;
+}
