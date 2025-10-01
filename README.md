@@ -69,16 +69,16 @@ This project demonstrates core Django functionality including authentication, ro
 ##  Screenshots
 
 ### Landing Page
-![Landing Page](static/screenshots/landing.png)
+![Landing Page](LetsLearn/static/screenshots/landing.png)
 
 ###  Login Page
-![Login Page](static/screenshots/login.png)
+![Login Page](LetsLearn/static/screenshots/login.png)
 
 ###  Signup Page
-![Signup Page](static/screenshots/signup.png)
+![Signup Page](LetsLearn/static/screenshots/signup.png)
 
 ###  Dashboard
-![Dashboard](static/screenshots/dashboard.png)
+![Dashboard](LetsLearn/static/screenshots/dashboard.png)
 
 ---
 
